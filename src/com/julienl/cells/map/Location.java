@@ -14,4 +14,9 @@ public class Location {
 		this.y = y;
 	}
 	
+	public void add(int x, int y) {
+		this.x+=x;
+		this.y+=y;
+	}
+	
 }

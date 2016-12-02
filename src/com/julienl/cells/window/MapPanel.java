@@ -13,6 +13,7 @@ public class MapPanel extends Container {
 
 	@Override
 	public void paint(Graphics g) {
+		int size = MapFrame.size;
         for (int i = 10; i <= 510; i+= 10)
             g.drawLine (i, 10, i, 510);
 
